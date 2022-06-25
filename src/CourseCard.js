@@ -18,7 +18,6 @@ const CourseCard = () => {
       <p className="text-xl text-gray-500 font-semibold">
         {course.subTitle}{" "}
         <span className="border border-gray-600 rounded-full px-1.5 text-xs ml-1 font-bold">
-          {" "}
           ?{" "}
         </span>
       </p>
@@ -55,7 +54,6 @@ const CourseCard = () => {
               {likeSvg} Save
             </button>
             <button className="text-purple-600 font-bold ml-7">
-              {" "}
               {shareSvg} Share
             </button>
           </div>
